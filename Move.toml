@@ -1,0 +1,9 @@
+[package]
+name = "save_the_flag"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+save_the_flag = "0x0"
